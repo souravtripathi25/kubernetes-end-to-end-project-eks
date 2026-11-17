@@ -151,14 +151,20 @@ Note: `target-type: ip` is required on Fargate (instance mode does not work).
 
 ## Screenshots
 
-Add your screenshots to `docs/screenshots/`:
+### 2048 game running on EKS via ALB
+![2048 game](docs/screenshots/01-2048-game.png)
 
-- 2048 game running via the ALB URL
-- `kubectl get pods -n game-2048` and `kubectl get ingress -n game-2048`
-- ALB in the EC2 console
-- EKS cluster in Active state
+### Pods and Ingress
+![Pods and Ingress](docs/screenshots/02-pods-ingress.png)
 
-> Blur account ID, VPC ID and public IPs before committing screenshots.
+### AWS Load Balancer Controller
+![ALB controller](docs/screenshots/03-alb-controller.png)
+
+### Application Load Balancer (AWS console)
+![ALB console](docs/screenshots/04-alb-console.png)
+
+### EKS cluster
+![EKS cluster](docs/screenshots/05-eks-cluster.png)
 
 ## Troubleshooting
 
